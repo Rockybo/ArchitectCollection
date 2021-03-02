@@ -1,0 +1,6 @@
+framework module Pods_ArchitectCollection_ArchitectCollectionUITests {
+  umbrella header "Pods-ArchitectCollection-ArchitectCollectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
