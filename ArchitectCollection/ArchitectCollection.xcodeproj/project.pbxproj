@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,16 @@
 		CA2D7D8D25EE0A370067A19D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D8C25EE0A370067A19D /* main.m */; };
 		CA2D7D9725EE0A380067A19D /* ArchitectCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D9625EE0A380067A19D /* ArchitectCollectionTests.m */; };
 		CA2D7DA225EE0A380067A19D /* ArchitectCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DA125EE0A380067A19D /* ArchitectCollectionUITests.m */; };
+		CA2D7DBF25EE0B9C0067A19D /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DBE25EE0B9C0067A19D /* MVPViewController.m */; };
+		CA2D7DC825EE0BA60067A19D /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DC725EE0BA60067A19D /* MVPModel.m */; };
+		CA2D7DCE25EE0BB00067A19D /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DCD25EE0BB00067A19D /* MVPPresenter.m */; };
+		CA2D7DD425EE0BBC0067A19D /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DD325EE0BBC0067A19D /* MVPView.m */; };
+		CA2D7DDA25EE0CA90067A19D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DD925EE0CA90067A19D /* BaseViewController.m */; };
+		CA2D7DE125EE0CF50067A19D /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DE025EE0CF50067A19D /* MVVMModel.m */; };
+		CA2D7DEA25EE0D040067A19D /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DE925EE0D040067A19D /* MVVMViewModel.m */; };
+		CA2D7DF025EE0D160067A19D /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DEF25EE0D160067A19D /* MVVMViewController.m */; };
+		CA2D7DF625EE0D200067A19D /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DF525EE0D200067A19D /* MVVMView.m */; };
+		CA2D7DFF25EE0FBE0067A19D /* DataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA2D7DFE25EE0FBE0067A19D /* DataList.plist */; };
 		CF1904F50C0BAAEA9A058DF4 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71983E07D9EA0ED936CAC17 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +73,25 @@
 		CA2D7D9D25EE0A380067A19D /* ArchitectCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2D7DA125EE0A380067A19D /* ArchitectCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectCollectionUITests.m; sourceTree = "<group>"; };
 		CA2D7DA325EE0A380067A19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2D7DBD25EE0B9C0067A19D /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		CA2D7DBE25EE0B9C0067A19D /* MVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		CA2D7DC625EE0BA60067A19D /* MVPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		CA2D7DC725EE0BA60067A19D /* MVPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		CA2D7DCC25EE0BB00067A19D /* MVPPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPPresenter.h; sourceTree = "<group>"; };
+		CA2D7DCD25EE0BB00067A19D /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
+		CA2D7DD225EE0BBC0067A19D /* MVPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
+		CA2D7DD325EE0BBC0067A19D /* MVPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
+		CA2D7DD825EE0CA90067A19D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CA2D7DD925EE0CA90067A19D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CA2D7DDF25EE0CF50067A19D /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		CA2D7DE025EE0CF50067A19D /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		CA2D7DE825EE0D040067A19D /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		CA2D7DE925EE0D040067A19D /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		CA2D7DEE25EE0D160067A19D /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		CA2D7DEF25EE0D160067A19D /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		CA2D7DF425EE0D200067A19D /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		CA2D7DF525EE0D200067A19D /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		CA2D7DFE25EE0FBE0067A19D /* DataList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataList.plist; sourceTree = "<group>"; };
 		D44E23F80EA61C5F20C68230 /* Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectCollection-ArchitectCollectionUITests/Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E71983E07D9EA0ED936CAC17 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectCollection_ArchitectCollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5122CAA19485D4C9131B3E /* Pods_ArchitectCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +145,6 @@
 				83635D01FC2AD8E77D82D87D /* Pods-ArchitectCollectionTests.debug.xcconfig */,
 				3D4A68ED18C4EE8AB87E243E /* Pods-ArchitectCollectionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +173,9 @@
 		CA2D7D7925EE0A340067A19D /* ArchitectCollection */ = {
 			isa = PBXGroup;
 			children = (
+				CA2D7DFA25EE0E300067A19D /* Url-Handler机制 */,
+				CA2D7DDE25EE0CC50067A19D /* MVVM */,
+				CA2D7DBC25EE0B0D0067A19D /* MVP */,
 				CA2D7D7A25EE0A340067A19D /* AppDelegate.h */,
 				CA2D7D7B25EE0A340067A19D /* AppDelegate.m */,
 				CA2D7D7D25EE0A340067A19D /* SceneDelegate.h */,
@@ -156,6 +187,9 @@
 				CA2D7D8825EE0A370067A19D /* LaunchScreen.storyboard */,
 				CA2D7D8B25EE0A370067A19D /* Info.plist */,
 				CA2D7D8C25EE0A370067A19D /* main.m */,
+				CA2D7DD825EE0CA90067A19D /* BaseViewController.h */,
+				CA2D7DD925EE0CA90067A19D /* BaseViewController.m */,
+				CA2D7DFE25EE0FBE0067A19D /* DataList.plist */,
 			);
 			path = ArchitectCollection;
 			sourceTree = "<group>";
@@ -176,6 +210,43 @@
 				CA2D7DA325EE0A380067A19D /* Info.plist */,
 			);
 			path = ArchitectCollectionUITests;
+			sourceTree = "<group>";
+		};
+		CA2D7DBC25EE0B0D0067A19D /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D7DBD25EE0B9C0067A19D /* MVPViewController.h */,
+				CA2D7DBE25EE0B9C0067A19D /* MVPViewController.m */,
+				CA2D7DC625EE0BA60067A19D /* MVPModel.h */,
+				CA2D7DC725EE0BA60067A19D /* MVPModel.m */,
+				CA2D7DCC25EE0BB00067A19D /* MVPPresenter.h */,
+				CA2D7DCD25EE0BB00067A19D /* MVPPresenter.m */,
+				CA2D7DD225EE0BBC0067A19D /* MVPView.h */,
+				CA2D7DD325EE0BBC0067A19D /* MVPView.m */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		CA2D7DDE25EE0CC50067A19D /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D7DDF25EE0CF50067A19D /* MVVMModel.h */,
+				CA2D7DE025EE0CF50067A19D /* MVVMModel.m */,
+				CA2D7DE825EE0D040067A19D /* MVVMViewModel.h */,
+				CA2D7DE925EE0D040067A19D /* MVVMViewModel.m */,
+				CA2D7DEE25EE0D160067A19D /* MVVMViewController.h */,
+				CA2D7DEF25EE0D160067A19D /* MVVMViewController.m */,
+				CA2D7DF425EE0D200067A19D /* MVVMView.h */,
+				CA2D7DF525EE0D200067A19D /* MVVMView.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CA2D7DFA25EE0E300067A19D /* Url-Handler机制 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Url-Handler机制";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +358,7 @@
 			files = (
 				CA2D7D8A25EE0A370067A19D /* LaunchScreen.storyboard in Resources */,
 				CA2D7D8725EE0A370067A19D /* Assets.xcassets in Resources */,
+				CA2D7DFF25EE0FBE0067A19D /* DataList.plist in Resources */,
 				CA2D7D8525EE0A340067A19D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +487,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2D7DBF25EE0B9C0067A19D /* MVPViewController.m in Sources */,
+				CA2D7DF625EE0D200067A19D /* MVVMView.m in Sources */,
+				CA2D7DEA25EE0D040067A19D /* MVVMViewModel.m in Sources */,
+				CA2D7DDA25EE0CA90067A19D /* BaseViewController.m in Sources */,
 				CA2D7D8225EE0A340067A19D /* ViewController.m in Sources */,
+				CA2D7DE125EE0CF50067A19D /* MVVMModel.m in Sources */,
+				CA2D7DD425EE0BBC0067A19D /* MVPView.m in Sources */,
+				CA2D7DCE25EE0BB00067A19D /* MVPPresenter.m in Sources */,
 				CA2D7D7C25EE0A340067A19D /* AppDelegate.m in Sources */,
+				CA2D7DF025EE0D160067A19D /* MVVMViewController.m in Sources */,
 				CA2D7D8D25EE0A370067A19D /* main.m in Sources */,
 				CA2D7D7F25EE0A340067A19D /* SceneDelegate.m in Sources */,
+				CA2D7DC825EE0BA60067A19D /* MVPModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
