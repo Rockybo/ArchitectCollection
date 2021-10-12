@@ -9,26 +9,33 @@
 /* Begin PBXBuildFile section */
 		59326B46DADE1D2FCF2024D8 /* Pods_ArchitectCollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5122CAA19485D4C9131B3E /* Pods_ArchitectCollectionTests.framework */; };
 		B4EE9908A839C94088FD9904 /* Pods_ArchitectCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CB97412131D00F3883CEE7 /* Pods_ArchitectCollection.framework */; };
-		CA2D7D7C25EE0A340067A19D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D7B25EE0A340067A19D /* AppDelegate.m */; };
-		CA2D7D7F25EE0A340067A19D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D7E25EE0A340067A19D /* SceneDelegate.m */; };
-		CA2D7D8225EE0A340067A19D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D8125EE0A340067A19D /* ViewController.m */; };
 		CA2D7D8525EE0A340067A19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2D7D8325EE0A340067A19D /* Main.storyboard */; };
 		CA2D7D8725EE0A370067A19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2D7D8625EE0A370067A19D /* Assets.xcassets */; };
 		CA2D7D8A25EE0A370067A19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2D7D8825EE0A370067A19D /* LaunchScreen.storyboard */; };
-		CA2D7D8D25EE0A370067A19D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D8C25EE0A370067A19D /* main.m */; };
 		CA2D7D9725EE0A380067A19D /* ArchitectCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D9625EE0A380067A19D /* ArchitectCollectionTests.m */; };
 		CA2D7DA225EE0A380067A19D /* ArchitectCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DA125EE0A380067A19D /* ArchitectCollectionUITests.m */; };
 		CA2D7DBF25EE0B9C0067A19D /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DBE25EE0B9C0067A19D /* MVPViewController.m */; };
 		CA2D7DC825EE0BA60067A19D /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DC725EE0BA60067A19D /* MVPModel.m */; };
 		CA2D7DCE25EE0BB00067A19D /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DCD25EE0BB00067A19D /* MVPPresenter.m */; };
 		CA2D7DD425EE0BBC0067A19D /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DD325EE0BBC0067A19D /* MVPView.m */; };
-		CA2D7DDA25EE0CA90067A19D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DD925EE0CA90067A19D /* BaseViewController.m */; };
 		CA2D7DE125EE0CF50067A19D /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DE025EE0CF50067A19D /* MVVMModel.m */; };
 		CA2D7DEA25EE0D040067A19D /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DE925EE0D040067A19D /* MVVMViewModel.m */; };
 		CA2D7DF025EE0D160067A19D /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DEF25EE0D160067A19D /* MVVMViewController.m */; };
 		CA2D7DF625EE0D200067A19D /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7DF525EE0D200067A19D /* MVVMView.m */; };
-		CA2D7DFF25EE0FBE0067A19D /* DataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA2D7DFE25EE0FBE0067A19D /* DataList.plist */; };
 		CF1904F50C0BAAEA9A058DF4 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71983E07D9EA0ED936CAC17 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework */; };
+		EA78B42A2715D798006E0A5F /* DataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B4202715D798006E0A5F /* DataList.plist */; };
+		EA78B42B2715D798006E0A5F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B4212715D798006E0A5F /* BaseViewController.m */; };
+		EA78B42C2715D798006E0A5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B4222715D798006E0A5F /* ViewController.m */; };
+		EA78B42D2715D798006E0A5F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B4232715D798006E0A5F /* SceneDelegate.m */; };
+		EA78B42E2715D798006E0A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B4242715D798006E0A5F /* main.m */; };
+		EA78B42F2715D798006E0A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B4252715D798006E0A5F /* AppDelegate.m */; };
+		EAD3747D2715DA4D00A85A27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B4272715D798006E0A5F /* Info.plist */; };
+		EAD374852715DD3A00A85A27 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD374842715DD3A00A85A27 /* LoginView.m */; };
+		EAD374882715DD4C00A85A27 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD374872715DD4C00A85A27 /* LoginViewController.m */; };
+		EAD3748B2715DD5C00A85A27 /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD3748A2715DD5C00A85A27 /* LoginPresenter.m */; };
+		EAD3748E2715DD6C00A85A27 /* LoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD3748D2715DD6C00A85A27 /* LoginInteractor.m */; };
+		EAD374912715DD7900A85A27 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD374902715DD7900A85A27 /* LoginModel.m */; };
+		EAD374942715DD8700A85A27 /* LoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD374932715DD8700A85A27 /* LoginRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,17 +63,9 @@
 		8DBA96B47C4F9310A594BF8B /* Pods-ArchitectCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectCollection.release.xcconfig"; path = "Target Support Files/Pods-ArchitectCollection/Pods-ArchitectCollection.release.xcconfig"; sourceTree = "<group>"; };
 		9A43CACB6123E90F6C4693C3 /* Pods-ArchitectCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectCollection.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectCollection/Pods-ArchitectCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		CA2D7D7725EE0A340067A19D /* ArchitectCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA2D7D7A25EE0A340067A19D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CA2D7D7B25EE0A340067A19D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA2D7D7D25EE0A340067A19D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CA2D7D7E25EE0A340067A19D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CA2D7D8025EE0A340067A19D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA2D7D8125EE0A340067A19D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA2D7D8425EE0A340067A19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2D7D8625EE0A370067A19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2D7D8925EE0A370067A19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA2D7D8B25EE0A370067A19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA2D7D8C25EE0A370067A19D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA2D7D9225EE0A370067A19D /* ArchitectCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2D7D9625EE0A380067A19D /* ArchitectCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectCollectionTests.m; sourceTree = "<group>"; };
 		CA2D7D9825EE0A380067A19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,8 +80,6 @@
 		CA2D7DCD25EE0BB00067A19D /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
 		CA2D7DD225EE0BBC0067A19D /* MVPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
 		CA2D7DD325EE0BBC0067A19D /* MVPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
-		CA2D7DD825EE0CA90067A19D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		CA2D7DD925EE0CA90067A19D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		CA2D7DDF25EE0CF50067A19D /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
 		CA2D7DE025EE0CF50067A19D /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
 		CA2D7DE825EE0D040067A19D /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
@@ -91,9 +88,31 @@
 		CA2D7DEF25EE0D160067A19D /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
 		CA2D7DF425EE0D200067A19D /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
 		CA2D7DF525EE0D200067A19D /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
-		CA2D7DFE25EE0FBE0067A19D /* DataList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataList.plist; sourceTree = "<group>"; };
 		D44E23F80EA61C5F20C68230 /* Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectCollection-ArchitectCollectionUITests/Pods-ArchitectCollection-ArchitectCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E71983E07D9EA0ED936CAC17 /* Pods_ArchitectCollection_ArchitectCollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectCollection_ArchitectCollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA78B41F2715D798006E0A5F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA78B4202715D798006E0A5F /* DataList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataList.plist; sourceTree = "<group>"; };
+		EA78B4212715D798006E0A5F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EA78B4222715D798006E0A5F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA78B4232715D798006E0A5F /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EA78B4242715D798006E0A5F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA78B4252715D798006E0A5F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA78B4262715D798006E0A5F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EA78B4272715D798006E0A5F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA78B4282715D798006E0A5F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA78B4292715D798006E0A5F /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EAD374832715DD3A00A85A27 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		EAD374842715DD3A00A85A27 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		EAD374862715DD4C00A85A27 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EAD374872715DD4C00A85A27 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EAD374892715DD5C00A85A27 /* LoginPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPresenter.h; sourceTree = "<group>"; };
+		EAD3748A2715DD5C00A85A27 /* LoginPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPresenter.m; sourceTree = "<group>"; };
+		EAD3748C2715DD6C00A85A27 /* LoginInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginInteractor.h; sourceTree = "<group>"; };
+		EAD3748D2715DD6C00A85A27 /* LoginInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginInteractor.m; sourceTree = "<group>"; };
+		EAD3748F2715DD7900A85A27 /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		EAD374902715DD7900A85A27 /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		EAD374922715DD8700A85A27 /* LoginRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRouter.h; sourceTree = "<group>"; };
+		EAD374932715DD8700A85A27 /* LoginRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRouter.m; sourceTree = "<group>"; };
 		EE5122CAA19485D4C9131B3E /* Pods_ArchitectCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,23 +192,15 @@
 		CA2D7D7925EE0A340067A19D /* ArchitectCollection */ = {
 			isa = PBXGroup;
 			children = (
-				CA2D7DFA25EE0E300067A19D /* Url-Handler机制 */,
+				EA78B4332715D7E5006E0A5F /* MVC */,
+				EA78B4322715D7DD006E0A5F /* Riblets */,
+				EA78B4312715D7D8006E0A5F /* VIPER */,
+				EA78B41E2715D798006E0A5F /* Other */,
 				CA2D7DDE25EE0CC50067A19D /* MVVM */,
 				CA2D7DBC25EE0B0D0067A19D /* MVP */,
-				CA2D7D7A25EE0A340067A19D /* AppDelegate.h */,
-				CA2D7D7B25EE0A340067A19D /* AppDelegate.m */,
-				CA2D7D7D25EE0A340067A19D /* SceneDelegate.h */,
-				CA2D7D7E25EE0A340067A19D /* SceneDelegate.m */,
-				CA2D7D8025EE0A340067A19D /* ViewController.h */,
-				CA2D7D8125EE0A340067A19D /* ViewController.m */,
 				CA2D7D8325EE0A340067A19D /* Main.storyboard */,
 				CA2D7D8625EE0A370067A19D /* Assets.xcassets */,
 				CA2D7D8825EE0A370067A19D /* LaunchScreen.storyboard */,
-				CA2D7D8B25EE0A370067A19D /* Info.plist */,
-				CA2D7D8C25EE0A370067A19D /* main.m */,
-				CA2D7DD825EE0CA90067A19D /* BaseViewController.h */,
-				CA2D7DD925EE0CA90067A19D /* BaseViewController.m */,
-				CA2D7DFE25EE0FBE0067A19D /* DataList.plist */,
 			);
 			path = ArchitectCollection;
 			sourceTree = "<group>";
@@ -242,11 +253,95 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
-		CA2D7DFA25EE0E300067A19D /* Url-Handler机制 */ = {
+		EA78B41E2715D798006E0A5F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EA78B4272715D798006E0A5F /* Info.plist */,
+				EA78B41F2715D798006E0A5F /* AppDelegate.h */,
+				EA78B4202715D798006E0A5F /* DataList.plist */,
+				EA78B4212715D798006E0A5F /* BaseViewController.m */,
+				EA78B4222715D798006E0A5F /* ViewController.m */,
+				EA78B4232715D798006E0A5F /* SceneDelegate.m */,
+				EA78B4242715D798006E0A5F /* main.m */,
+				EA78B4252715D798006E0A5F /* AppDelegate.m */,
+				EA78B4262715D798006E0A5F /* BaseViewController.h */,
+				EA78B4282715D798006E0A5F /* ViewController.h */,
+				EA78B4292715D798006E0A5F /* SceneDelegate.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EA78B4312715D7D8006E0A5F /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				EAD374812715DCD200A85A27 /* Entity */,
+				EAD3747F2715DCD200A85A27 /* Interactor */,
+				EAD3747E2715DCD200A85A27 /* Presenter */,
+				EAD374802715DCD200A85A27 /* Router */,
+				EAD374822715DCD200A85A27 /* View */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		EA78B4322715D7DD006E0A5F /* Riblets */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Url-Handler机制";
+			path = Riblets;
+			sourceTree = "<group>";
+		};
+		EA78B4332715D7E5006E0A5F /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		EAD3747E2715DCD200A85A27 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EAD374892715DD5C00A85A27 /* LoginPresenter.h */,
+				EAD3748A2715DD5C00A85A27 /* LoginPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EAD3747F2715DCD200A85A27 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EAD3748C2715DD6C00A85A27 /* LoginInteractor.h */,
+				EAD3748D2715DD6C00A85A27 /* LoginInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EAD374802715DCD200A85A27 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EAD374922715DD8700A85A27 /* LoginRouter.h */,
+				EAD374932715DD8700A85A27 /* LoginRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EAD374812715DCD200A85A27 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EAD3748F2715DD7900A85A27 /* LoginModel.h */,
+				EAD374902715DD7900A85A27 /* LoginModel.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EAD374822715DCD200A85A27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAD374832715DD3A00A85A27 /* LoginView.h */,
+				EAD374842715DD3A00A85A27 /* LoginView.m */,
+				EAD374862715DD4C00A85A27 /* LoginViewController.h */,
+				EAD374872715DD4C00A85A27 /* LoginViewController.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,9 +451,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD3747D2715DA4D00A85A27 /* Info.plist in Resources */,
 				CA2D7D8A25EE0A370067A19D /* LaunchScreen.storyboard in Resources */,
 				CA2D7D8725EE0A370067A19D /* Assets.xcassets in Resources */,
-				CA2D7DFF25EE0FBE0067A19D /* DataList.plist in Resources */,
+				EA78B42A2715D798006E0A5F /* DataList.plist in Resources */,
 				CA2D7D8525EE0A340067A19D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,18 +584,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2D7DBF25EE0B9C0067A19D /* MVPViewController.m in Sources */,
+				EA78B42B2715D798006E0A5F /* BaseViewController.m in Sources */,
+				EAD3748E2715DD6C00A85A27 /* LoginInteractor.m in Sources */,
+				EAD374852715DD3A00A85A27 /* LoginView.m in Sources */,
 				CA2D7DF625EE0D200067A19D /* MVVMView.m in Sources */,
 				CA2D7DEA25EE0D040067A19D /* MVVMViewModel.m in Sources */,
-				CA2D7DDA25EE0CA90067A19D /* BaseViewController.m in Sources */,
-				CA2D7D8225EE0A340067A19D /* ViewController.m in Sources */,
+				EA78B42C2715D798006E0A5F /* ViewController.m in Sources */,
 				CA2D7DE125EE0CF50067A19D /* MVVMModel.m in Sources */,
+				EA78B42D2715D798006E0A5F /* SceneDelegate.m in Sources */,
+				EA78B42F2715D798006E0A5F /* AppDelegate.m in Sources */,
 				CA2D7DD425EE0BBC0067A19D /* MVPView.m in Sources */,
+				EAD374912715DD7900A85A27 /* LoginModel.m in Sources */,
 				CA2D7DCE25EE0BB00067A19D /* MVPPresenter.m in Sources */,
-				CA2D7D7C25EE0A340067A19D /* AppDelegate.m in Sources */,
 				CA2D7DF025EE0D160067A19D /* MVVMViewController.m in Sources */,
-				CA2D7D8D25EE0A370067A19D /* main.m in Sources */,
-				CA2D7D7F25EE0A340067A19D /* SceneDelegate.m in Sources */,
+				EAD3748B2715DD5C00A85A27 /* LoginPresenter.m in Sources */,
+				EA78B42E2715D798006E0A5F /* main.m in Sources */,
+				EAD374942715DD8700A85A27 /* LoginRouter.m in Sources */,
 				CA2D7DC825EE0BA60067A19D /* MVPModel.m in Sources */,
+				EAD374882715DD4C00A85A27 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +775,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArchitectCollection/Info.plist;
+				INFOPLIST_FILE = ArchitectCollection/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -691,7 +793,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArchitectCollection/Info.plist;
+				INFOPLIST_FILE = ArchitectCollection/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
